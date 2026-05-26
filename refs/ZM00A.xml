@@ -1,0 +1,19 @@
+<rom base="1ZH99A">
+
+	<romid>
+		<xmlid>1ZM00A</xmlid>
+		<hwid>6ZVYXN00</hwid>
+		<internalidaddress>2400</internalidaddress>
+		<internalidstring>1ZM00A</internalidstring>
+		<ecuid>1ZM00A</ecuid>
+		<year>2006</year>
+		<market>USDM</market>
+		<make>Nissan</make>
+		<model>Quest</model>
+		<submodel></submodel>
+		<transmission>AT</transmission>
+		<memmodel>SH7058</memmodel>
+		<flashmethod>nisprog</flashmethod>
+		<filesize>1024kb</filesize>
+	</romid>
+</rom>

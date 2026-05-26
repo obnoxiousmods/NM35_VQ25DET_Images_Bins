@@ -1,0 +1,175 @@
+﻿<rom base="NISSAN_BASE">
+	<romid>
+		<xmlid>18J160</xmlid>
+		<hwid>1TKE8Z5N5</hwid>
+		<internalidaddress>6B77</internalidaddress>
+		<internalidstring>18J160</internalidstring>
+		<ecuid>18J160</ecuid>
+		<year>03</year>
+		<market>USDM</market>
+		<make>Nissan</make>
+		<model>Altima</model>
+		<submodel>Base</submodel>
+		<transmission>5MT</transmission>
+		<memmodel>SH7055</memmodel>
+		<flashmethod>nisprog</flashmethod>
+		<filesize>512kb</filesize>
+	</romid>
+
+	<table name="High Temp Fuel Comp" storageaddress="0x5191">
+		<table type="X Axis" storageaddress="0x6b42" />
+		<table type="Y Axis" storageaddress="0x6b4a" />
+	</table>
+
+	<table name="Cold Ignition Trim" storageaddress="0x51e1">
+		<table type="X Axis" storageaddress="0x6e28" />
+		<table type="Y Axis" storageaddress="0x6e38" />
+	</table>
+	
+	<table name="High Octane Ignition Trim" storageaddress="0x52E1">
+		<table type="X Axis" storageaddress="0x6e28" />
+		<table type="Y Axis" storageaddress="0x6e38" />
+	</table>
+
+	<table name="Regular Ignition Trim" storageaddress="0x53e1">
+		<table type="X Axis" storageaddress="0x6e28" />
+		<table type="Y Axis" storageaddress="0x6e38" />
+	</table>
+
+	<table  name="MBT Flame Speed"  storageaddress="0x5541">
+		<table type="X Axis" storageaddress="0x6bfd" />
+		<table type="Y Axis" storageaddress="0x6c01" />
+	</table>
+
+	<table  name="Fresh air rate"  storageaddress="0x5551">
+		<table type="X Axis" storageaddress="0x6bfd" />
+		<table type="Y Axis" storageaddress="0x6c01" />
+	</table>
+
+	<table name="Fuel Compensation" storageaddress="0x56a1">
+		<table type="X Axis" storageaddress="0x6d7e" />
+		<table type="Y Axis" storageaddress="0x6d22" />
+	</table>
+
+	<table name="Fuel Target" storageaddress="0x58B1">
+		<table type="X Axis" storageaddress="0x6C05" />
+		<table type="Y Axis" storageaddress="0x6D1A" />
+	</table>
+
+	<table name="Intake Cam Timing (4x4)" storageaddress="0x5911">
+		<table type="X Axis" storageaddress="0x76bc" />
+		<table type="Y Axis" storageaddress="0x76c0" />
+	</table>
+
+	<table name="Intake Cam Timing (16x16)" storageaddress="0x59f1">
+		<table type="X Axis" storageaddress="0x768c" />
+		<table type="Y Axis" storageaddress="0x769c" />
+	</table>
+
+	<table name="QH0/ torque conversion map" storageaddress="0x638C">
+		<table type="X Axis" storageaddress="0x7878" />
+		<table type="Y Axis" storageaddress="0x6d3a" />   
+	</table>
+
+	<table name="QH0/ torque conversion map 2" storageaddress="0x850a">
+		<table type="X Axis" storageaddress="0x87d8" />
+		<table type="Y Axis" storageaddress="0x8747" />   
+	</table>
+	
+	<table name="Knock Slice Table" storageaddress="0x6a0c"/>	
+	<table name="High Octane Knock Limit" storageaddress="0x6cc5"/>
+	<table name="Regular Knock Limit" storageaddress="0x6cce"/>
+	<table name="Crank Inj Atmospheric pressure compensation" storageaddress="0x6e58"/>
+	<table name="Cranking Advance" storageaddress="0x6ec8" />
+	<table name="mTDENS" storageaddress="0x6f28"/>
+	<table name="Post-Start Enrichment Decrease Rate" storageaddress="0x6f30"/>
+	<table name="mTFLTW" storageaddress="0x6ffc"/>
+	<table name="Idle Timing (GOV)" storageaddress="0x7034"/>
+	<table name="Idle Timing (GOV3)" storageaddress="0x703c"/>
+	<table name="Idle Timing (Lean)" storageaddress="0x7044"/>
+	<table name="Post-Start Enrichment" storageaddress="0x713c"/>
+	<table name="Crank Inj Rotation Compensation" storageaddress="0x71e0"/>
+	<table name="Regular Fuel Compensation" storageaddress="0x7208"/>
+	<table name="Learning map TP shaft lattice point table" storageaddress="0x7230"/>
+	<table name="Learning map N shaft lattice point table" storageaddress="0x72de"/>
+	<table name="Fuel Cut Bosch" storageaddress="0x72e6"/>
+	<table name="Fuel Cut JECS" storageaddress="0x730a"/>
+	<table name="Idle Target" storageaddress="0x7322"/>
+	<table name="Fuel Restore JECS" storageaddress="0x735a"/>
+	<table name="Fuel Restore Bosch" storageaddress="0x73e2"/>
+	<table name="Individual Cylinder Fuel Trims" storageaddress="0x7406" sizey="6"/>
+	<table name="Crank Inj Coolant Compensation" storageaddress="0x75d0"/>
+	<table name="MAF" storageaddress="0x7898"/>
+	<table name="Load Base Fuel Schedule" storageaddress="0x7a38"/>
+
+	<table name="Catalyst DTCs" storageaddress="0x8710"/>
+	<table name="P1490" storageaddress="0x8711"/>
+	<table name="AT1 DTCs"  storageaddress="0x8714"/>
+	<table name="AT2 DTCs"  storageaddress="0x8715"/>
+	<table name="NATS DTCs"  storageaddress="0x8717"/>
+	<table name="Evap DTCs" storageaddress="0x8719"/>
+	<table name="Evap 2 DTCs"  storageaddress="0x871A"/>
+	<table name="AT3 VIAS DTCs"  storageaddress="0x871E"/>
+	<table name="Fuel Level DTCs"  storageaddress="0x8721"/>
+	<table name="Power Steering DTC"  storageaddress="0x8724"/>
+	<table name="CAN DTCs" storageaddress="0x8725"/>
+	<table name="P1121 Throttle DTCs"  storageaddress="0x872e"/>
+	<table name="ASCD DTCs"  storageaddress="0x8732"/>
+	<table name="Primary O2 DTCs" storageaddress="0x873a"/>
+	<table name="Primary O2 Idle DTCs" storageaddress="0x873b"/>
+	<table name="Secondary O2 DTCs" storageaddress="0x873c"/>
+	<table name="Secondary O2 Knock DTCs" storageaddress="0x873d"/>
+	<table name="Fuel Evap Purge Solenoid DTCs" storageaddress="0x8740"/>
+	<table name="Evap Pressure Flow DTCs" storageaddress="0x8742"/>
+	<table name="Evap Leaks DTCs"  storageaddress="0x8743"/>
+	<table name="Throttle DTCs"  storageaddress="0x8745"/>
+
+	<table name="Ignition Timing Retard Limit" storageaddress="0x467c"/>
+	<table name="mDILU" storageaddress="0x479a"/>
+	<table name="Fuel Injector Latency Adder" storageaddress="0x480d"/>
+	<table name="Fuel Cut Ignition Retard" storageaddress="0x48a8"/>
+	<table name="Intake cam max target" storageaddress="0x4908"/>
+	<table name="Master Fueling Transition Delay" storageaddress="0x49a1"/>
+	<table name="mMBTM" storageaddress="0x49F4"/>
+	<table name="mMBTT" storageaddress="0x49F5"/>
+	<table name="OBD O2 sensors present" storageaddress="0x4a9e"/>
+	<table name="MAF factor" storageaddress="0x4b34"/>
+	<table name="Fuel correction limits, % (MALPRV)" storageaddress="0x4ba6" />
+	<table name="mTAU0" storageaddress="0x4BFE"/>
+	<table name="Injector Latency at 14V" storageaddress="0x4cc0" />
+	<table name="VIAS A Lower Engine Speed" storageaddress="0x4d2d"/>
+	<table name="VIAS A Upper Engine Speed" storageaddress="0x4d2e"/>
+	<table name="VIAS A Minimum IPW" storageaddress="0x4d30"/>
+	<table name="Speed Limiter (Fuel Cut)" storageaddress="0x4d58"/>
+	<table name="Speed Limiter (F/C Restore)" storageaddress="0x4d63"/>
+	<table name="Intake cam full advance (for PID)" storageaddress="0x4d72"/>
+	<table name="MAF voltage limits" storageaddress="0x4de6" />
+	<table name="Fuel Injection Multiplier" storageaddress="0x4f16"/>
+	<table name="MAF low voltage range_w" storageaddress="0x4f56" />
+	<table name="Rev Limit (Fuel Cut)"  storageaddress="0x4F6C"/>
+	<table name="Rev Limit (Fuel Restore)" storageaddress="0x4F70"/>
+	<!--table name="Rev Limit (Fuel Cut - 3D)" storageaddress="0x4F6C"/-->
+	<table name="MAF offset" storageaddress="0x4f94"/>
+	<table name="Speed Limiter" storageaddress="0x4fba"/>
+	<table name="Minimum Injector Pulse Width" storageaddress="0x4fd2"/>
+	<table name="mTP100" storageaddress="0x4fdc"/>
+	<table name="Idle BFS limits, ms (TPRV)" storageaddress="0x4fe2"/>
+	<table name="MAF idle voltage limits (USRV)" storageaddress="0x5014" />
+
+	<table type="Switch" name="Force Emissions Readiness" category="Hack" sizey="2" storageaddress="0x15714">
+		<description>When on, this forces all emissions monitors to display 'Ready' Off-road and racing use only. Must NEVER be enabled on vehicles that will be driven on public roads.</description>
+		<state name="on" data=" E2 65" />
+		<state name="off" data=" 62 30" />
+	</table>  
+
+	<table type="Switch" name="Force System Availabilty (for Readiness)" category="Hack" sizey="1" storageaddress="0x156fB">
+		<description>Force system availability if DTCs are disabled. Off-road and racing use only. Must NEVER be enabled on vehicles that will be driven on public roads. </description>
+		<state name="evap" data="44" />
+		<state name="evap+catalyst" data="45" />
+		<state name="catalyst" data="41" />
+		<state name="stock" data="40" />
+	</table>
+
+	<checksum type="std" start="0" end="0x7FFFF" sumloc="0x50d8" xorloc="0x50d0" />
+
+</rom>

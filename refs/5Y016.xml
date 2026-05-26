@@ -1,0 +1,18 @@
+<rom base="14Y916">
+    <romid>
+        <xmlid>15Y016</xmlid>
+        <hwid>1ZVMAT0NH</hwid>
+        <internalidaddress>23C0</internalidaddress>
+        <internalidstring>15Y016</internalidstring>
+        <ecuid>15Y016</ecuid>
+        <year>2001</year>
+        <market>USDM</market>
+        <make>Nissan</make>
+        <model>Maxima</model>
+        <submodel>NA</submodel>
+        <transmission>AT w TCS</transmission>
+        <memmodel>SH705507</memmodel>
+        <flashmethod>nisprog</flashmethod>
+        <filesize>512kb</filesize>
+    </romid>
+</rom>

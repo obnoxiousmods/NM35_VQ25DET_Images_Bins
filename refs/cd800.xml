@@ -1,0 +1,19 @@
+<rom base="1CD700">
+    <romid>
+	    <xmlid>1CD800</xmlid>
+	    <hwid>1TKE8Z5N56</hwid>
+      <internalidaddress>7DF9</internalidaddress>
+      <internalidstring>1CD800</internalidstring>
+      <ecuid>1CD800</ecuid>
+      <year>03</year>
+      <market>EU</market>
+      <make>Nissan</make>
+      <model>350Z</model>
+      <submodel></submodel>
+      <transmission>MT</transmission>
+      <memmodel>SH7055</memmodel>
+      <flashmethod>nisprog</flashmethod>
+      <filesize>512kb</filesize>
+    </romid>
+
+</rom>

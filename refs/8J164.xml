@@ -1,0 +1,18 @@
+﻿<rom base="18J160">
+	<romid>
+		<xmlid>18J164</xmlid>
+		<hwid>1TKE8Z5N5</hwid>
+		<internalidaddress>6B77</internalidaddress>
+		<internalidstring>18J164</internalidstring>
+		<ecuid>18J164</ecuid>
+		<year>02</year>
+		<market>USDM</market>
+		<make>Nissan</make>
+		<model>Altima</model>
+		<submodel>Base</submodel>
+		<transmission>4AT</transmission>
+		<memmodel>SH7055</memmodel>
+		<flashmethod>nisprog</flashmethod>
+		<filesize>512kb</filesize>
+	</romid>
+</rom>

@@ -1,0 +1,68 @@
+<rom base="NISSAN_BASE">
+	<romid>
+		<xmlid>11NX4A</xmlid>
+		<hwid>8ZHFAUN5</hwid>
+		<internalidaddress>820F</internalidaddress>
+		<internalidstring>11NX4A</internalidstring>
+		<ecuid>11NX4A</ecuid>
+		<year>2011</year>
+		<market>US</market>
+		<make>Infiniti</make>
+		<model>G37</model>
+		<submodel>S</submodel>
+		<transmission>AT</transmission>
+		<memmodel>SH7059</memmodel>
+		<flashmethod>nisprog</flashmethod>
+		<filesize>1536kb</filesize>
+	</romid>
+
+	<table name="Cold Ignition Trim" storageaddress="0xA414">
+		<table type="X Axis" storageaddress="0x13A6E" />
+		<table type="Y Axis" storageaddress="0x13A7E" />
+	</table>
+
+	<table name="Regular Ignition Trim" storageaddress="0xA514">
+		<table type="X Axis" storageaddress="0x13A6E" />
+		<table type="Y Axis" storageaddress="0x13A7E" />
+	</table>
+
+	<!--table name="Fuel Compensation" storageaddress="0xA0C4">
+		<table type="X Axis" storageaddress="0xB98A" />
+		<table type="Y Axis" storageaddress="0xB94E" />
+	</table-->
+
+	<table name="Fuel Target" storageaddress="0xA7D4">
+		<table type="X Axis" storageaddress="0x136D4" />
+		<table type="Y Axis" storageaddress="0x13865" />
+	</table>
+
+	<table name="Learning map TP shaft lattice point table" storageaddress="0x140CE"/>
+	<table name="Learning map N shaft lattice point table" storageaddress="0x14238"/>
+
+	<table name="MAF" storageaddress="0x15DD6"/>
+	<table name="MAF 2" storageaddress="0x15E56"/>
+
+	<table name="Fuel Injection Multiplier" storageaddress="0x9200"/>
+	<table name="Injector Latency at 14V" storageaddress="0x8BC1" />
+	<table name="Fuel Injector Latency Adder" storageaddress="0x84B7" />
+	<table name="mTP100" storageaddress="0x9580"/>
+	<table name="MAF factor" storageaddress="0x89A3"/>
+	<table name="Individual Cylinder Fuel Trims" storageaddress="0x144E8" sizey="6"/>
+	<table name="Knock Slice Table" storageaddress="0x1214C"/>
+
+	<table name="Fuel Cut Bosch" storageaddress="0x14240"/>
+	<table name="Fuel Cut JECS" storageaddress="0x142A0"/>
+	<table name="Fuel Restore JECS" storageaddress="0x14370"/>
+	<table name="Fuel Restore Bosch" storageaddress="0x144CC"/>
+	<table name="Idle Target" storageaddress="0x142C0"/>
+	<table name="Idle Target 2" storageaddress="0x142D0"/>
+
+	<!--table name="Rev Limit (Fuel Cut - 2D)" storageaddress="0x8ECA"/-->
+	<!--table name="Throttle Rev Limits" storageaddress="0x8F56"/-->
+
+	<table name="Regular Fuel Compensation" storageaddress="0x1404E"/>
+	<table name="ECT Curve" storageaddress="0x14872"/>
+
+	<checksum type="alt2" start="0x8204" end="0x17FFFF" sumloc="0x97C8" xorloc="0x97C0"/>
+
+</rom>

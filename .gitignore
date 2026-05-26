@@ -1,0 +1,5 @@
+# Ignore any sensitive or generated files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
