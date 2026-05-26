@@ -11,23 +11,25 @@ This repo contains ECU ROM dumps, XML definition files, and premade tuned .bin f
 | Stage | Description | Status |
 |-------|-------------|--------|
 | **Stage 1** | KMPH speed limit raised from 180 → 300 km/h | ✅ Available |
-| **Stage 2** | Stage 1 + Rev limit raised from 6600 → 6800 RPM, restore from 6300 → 6400 RPM | 🚧 Coming Soon |
-| **Stage 3** | Stage 1 + Stage 2 + Extra boost, increased throttle response, enhanced street driving tune | 🚧 Coming Soon |
+| **Stage 2** | Stage 1 + Rev limit raised from 6600 → 6800 RPM, restore from 6300 → 6400 RPM | ✅ Available |
+| **Stage 3** | Stage 1 + Stage 2 + Extra boost, increased throttle response, enhanced street driving tune | ✅ Available |
 
 ### Stage 1
 
-- **File:** `nm35_vq25det_300kmph.bin`
+- **File:** `nm35_vq25det_STAGE1.bin`
 - Raises the factory 180 km/h speed limiter to 300 km/h
 - All other parameters remain stock
 
-### Stage 2 (Planned)
+### Stage 2
 
+- **File:** `nm35_vq25det_STAGE2.bin`
 - Stage 1 modifications +
 - Rev limit increased from 6600 → 6800 RPM
 - Fuel cut restore lowered from 6300 → 6400 RPM
 
-### Stage 3 (Planned)
+### Stage 3
 
+- **File:** `nm35_vq25det_STAGE3.bin`
 - All Stage 1 & 2 modifications +
 - Slightly increased boost pressure
 - Improved throttle response
