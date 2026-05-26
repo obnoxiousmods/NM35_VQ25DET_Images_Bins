@@ -1,6 +1,8 @@
 # NM35 VQ25DET Images & Bins
 
-Repository for tuning information and premade ECU binary (.bin) files for the **VQ25DET** engine found in the **Nissan Stagea NM35 (WC34)**.
+Repository for tuning information and premade ECU binary (.bin) files for the **VQ25DET** engine found in the **Nissan Stagea NM35**.
+
+> ⚠️ **IMPORTANT:** This repository is **ONLY for the NM35 Stagea (2001-2007, M35 platform).** It is **NOT for the WC34 Stagea (1996-2001, C34 platform).** The WC34 uses a completely different ECU (RB-series based), different wiring, and different ROM definitions. Flashing an NM35 .bin onto a WC34 ECU **will brick it.** Do not use these files on a WC34.
 
 ## Overview
 
